@@ -1,0 +1,10 @@
+.educationWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.education {
+    font-size: 1.15em;
+    font-weight: 600;
+}

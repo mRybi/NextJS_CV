@@ -1,0 +1,73 @@
+.main {
+  position: relative;
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.header::after {
+  height: 20px;
+  width: 20px;
+  border: 1px black solid;
+  background-color: black;
+  position: absolute;
+  top: 70px;
+  right: 40px;
+  content: close-quote;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr)
+}
+
+.link {
+  font-weight: 300;
+  font-size: 0.90rem;
+}
+
+.link:first-of-type {
+  margin-left: 100px;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.headerContainer {
+  flex: 1;
+}
+
+.sectionHeader {
+  width: fit-content;
+  border-bottom: 3px solid black;
+  padding-bottom: 5px;
+}
+
+.profileDescription {
+  flex: 2;
+}
+
+.flexCol {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex1 {
+  flex: 1;
+}
+
+.flex2 {
+  flex: 2;
+}
+
+.fontItalic {
+  font-style: italic;
+}
+

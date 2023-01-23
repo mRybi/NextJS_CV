@@ -1,0 +1,10 @@
+.positionWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.position {
+    font-size: 1.15em;
+    font-weight: 600;
+}
